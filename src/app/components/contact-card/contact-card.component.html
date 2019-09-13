@@ -1,0 +1,31 @@
+<ion-grid>
+  <ion-row>
+    <ion-col size="4" sizeXs="4" title="{{contact.name}}" *ngFor="let contact of contacts">
+      <ion-card>
+        <ion-card-header>
+          <ion-card-title>{{ contact.name }}</ion-card-title>
+        </ion-card-header>
+        <ion-item>
+          <ion-avatar slot="start">
+            <img src="{{contact.image}}">
+          </ion-avatar>
+          <ion-label>{{ contact.name }}</ion-label>
+        </ion-item>
+        <ion-card-content>
+          <small>
+            {{contact.phone}}<br>
+            {{contact.email}}
+          </small>
+          <hr>
+          <ion-item routerLink="/contacteditor/{{contact.id}}" class="clickable" detail>
+            <ion-icon slot="start" name="create"></ion-icon> Editar
+          </ion-item>
+          <ion-item class="clickable" (click)="remove(contact)">
+            <ion-icon name="trash" slot="start"></ion-icon>
+            <ion-label>Remover</ion-label>
+          </ion-item>
+        </ion-card-content>
+      </ion-card>
+    </ion-col>
+  </ion-row>
+</ion-grid>

@@ -1,0 +1,376 @@
+{
+    "id": "mockoon_export",
+    "appVersion": "1.4.0",
+    "checksum": "32a3f4f44bec8d4ffa79abe1e9fb50ea",
+    "subject": "full",
+    "data": [
+        {
+            "uuid": "2d78d590-cf39-11e9-a509-6d028c9d0099",
+            "name": "five",
+            "endpointPrefix": "",
+            "latency": 0,
+            "port": 3000,
+            "routes": [
+                {
+                    "uuid": "",
+                    "documentation": "",
+                    "method": "get",
+                    "endpoint": "adress/13400000",
+                    "body": "{\n    \"street\": \"Rua dos Devs\",\n    \"neighborhood\": \"JD Dos Devs\",\n    \"city\": \"Araraquara\",\n    \"state\": \"SP\",\n    \"country\": \"BR\"\n}",
+                    "latency": 0,
+                    "statusCode": "200",
+                    "headers": [
+                        {
+                            "key": "",
+                            "value": ""
+                        }
+                    ],
+                    "filePath": "",
+                    "sendFileAsBody": false
+                },
+                {
+                    "uuid": "29f67770-cffb-11e9-9520-059b9633132d",
+                    "documentation": "",
+                    "method": "post",
+                    "endpoint": "custumers",
+                    "body": "{\n    \"message\":\"Cliente cadastrado com sucesso!\",\n    \"success\":true,\n    \"data\": {\n        \"id\":\"e3a198c0-d1a6-4f26-a553-246c1e9b6728\"\n    }\n}",
+                    "latency": 0,
+                    "statusCode": "200",
+                    "headers": [
+                        {
+                            "key": "",
+                            "value": ""
+                        }
+                    ],
+                    "filePath": "",
+                    "sendFileAsBody": false
+                },
+                {
+                    "uuid": "8624cb50-cffb-11e9-9520-059b9633132d",
+                    "documentation": "",
+                    "method": "put",
+                    "endpoint": "custumers/e3a198c0-d1a6-4f26-a553-246c1e9b6728",
+                    "body": "{\n    \"message\":\"Cliente alterado com sucesso!\",\n    \"success\":true,\n    \"data\": {\n        \"id\":\"e3a198c0-d1a6-4f26-a553-246c1e9b6728\"\n    }\n}",
+                    "latency": 0,
+                    "statusCode": "200",
+                    "headers": [
+                        {
+                            "key": "",
+                            "value": ""
+                        }
+                    ],
+                    "filePath": "",
+                    "sendFileAsBody": false
+                },
+                {
+                    "uuid": "a53f70d0-cffb-11e9-9520-059b9633132d",
+                    "documentation": "",
+                    "method": "delete",
+                    "endpoint": "custumers/e3a198c0-d1a6-4f26-a553-246c1e9b6728",
+                    "body": "{\n    \"message\":\"Cliente deletado com sucesso!\",\n    \"success\":true,\n    \"data\": {\n        \"id\":\"e3a198c0-d1a6-4f26-a553-246c1e9b6728\"\n    }\n}",
+                    "latency": 0,
+                    "statusCode": "200",
+                    "headers": [
+                        {
+                            "key": "",
+                            "value": ""
+                        }
+                    ],
+                    "filePath": "",
+                    "sendFileAsBody": false
+                },
+                {
+                    "uuid": "43a03bb0-d001-11e9-9520-059b9633132d",
+                    "documentation": "",
+                    "method": "get",
+                    "endpoint": "custumers",
+                    "body": "[\n    {\"id\": \"e3a198c0-d1a6-4f26-a553-246c1e9b6728\", \"name\":\"Bruce Wayne\", \"email\":\"agora@vaii.com\"},\n    {\"id\": \"e3a198c0-d1a6-4f26-a553-246c1e9b6727\", \"name\":\"Dengue Viado 5.0\", \"email\":\"agorrra@vaii.com\"},\n    {\"id\": \"e3a198c0-d1a6-4f26-a553-246c1e9b6726\", \"name\":\"Tony Stark\", \"email\":\"ferro@velho.com\"}\n]\n",
+                    "latency": 1500,
+                    "statusCode": "200",
+                    "headers": [
+                        {
+                            "key": "",
+                            "value": ""
+                        }
+                    ],
+                    "filePath": "",
+                    "sendFileAsBody": false
+                },
+                {
+                    "uuid": "b55a4670-d00f-11e9-9520-059b9633132d",
+                    "documentation": "",
+                    "method": "get",
+                    "endpoint": "products",
+                    "body": "{\n    \"success\": true,\n    \"message\": \"Alterado com sucesso!\",\n    \"data\": [\n        {\n        \t\"id\": \"P1123\",\n        \t\"title\": \"Paçoca\",\n        \t\"price\": 2,\n        \t\"description\": \"Doce de amendoin\",\n        \t\"amount\": 200,\n        \t\"category\": \"Doce\"\n        },\n        {\n        \t\"id\": \"P2123\",\n        \t\"title\": \"Coxinha De Frango\",\n        \t\"price\": 5,\n        \t\"description\": \"Salgado de Frango\",\n        \t\"amount\": 500,\n        \t\"category\": \"Salgado\"\n        },\n        {\n        \t\"id\": \"P3123\",\n        \t\"title\": \"heineken\",\n        \t\"price\": 7,\n        \t\"description\": \"Cerveja\",\n        \t\"amount\": 9001,\n        \t\"category\": \"Bebida\"\n        }\n    ]\n}\n\n",
+                    "latency": 0,
+                    "statusCode": "200",
+                    "headers": [
+                        {
+                            "key": "",
+                            "value": ""
+                        }
+                    ],
+                    "filePath": "",
+                    "sendFileAsBody": false
+                },
+                {
+                    "uuid": "86109a80-d010-11e9-9520-059b9633132d",
+                    "documentation": "",
+                    "method": "post",
+                    "endpoint": "products",
+                    "body": "{\n    \"success\":true,\n    \"message\":\"Inserido com sucesso!\",\n    \"data\": {\n    \t\"id\": \"P1123\",\n    \t\"title\": \"Paçoca\",\n    \t\"price\": 2,\n    \t\"description\": \"Doce de amendoin\",\n    \t\"amount\": 200,\n    \t\"category\": \"Doce\"\n    }\n}\n",
+                    "latency": 0,
+                    "statusCode": "200",
+                    "headers": [
+                        {
+                            "key": "",
+                            "value": ""
+                        }
+                    ],
+                    "filePath": "",
+                    "sendFileAsBody": false
+                },
+                {
+                    "uuid": "9ab77800-d010-11e9-9520-059b9633132d",
+                    "documentation": "",
+                    "method": "delete",
+                    "endpoint": "products/P1123",
+                    "body": "{\n    \"success\":true,\n    \"message\":\"Excluido com sucesso!\",\n    \"data\":{\n    \t\"id\": \"P1123\",\n    \t\"title\": \"Paçoca\",\n    \t\"price\": 2,\n    \t\"description\": \"Doce de amendoin\",\n    \t\"amount\": 200,\n    \t\"category\": \"Doce\"\n    }\n}\n",
+                    "latency": 0,
+                    "statusCode": "200",
+                    "headers": [
+                        {
+                            "key": "",
+                            "value": ""
+                        }
+                    ],
+                    "filePath": "",
+                    "sendFileAsBody": false
+                },
+                {
+                    "uuid": "f3a790d0-d010-11e9-9520-059b9633132d",
+                    "documentation": "",
+                    "method": "put",
+                    "endpoint": "products/P1123",
+                    "body": "{\n    \"success\":true,\n    \"message\":\"Alterado com sucesso!\",\n    \"data\":{\n    \t\"id\": \"P1123\",\n    \t\"title\": \"Paçoca\",\n    \t\"price\": 2,\n    \t\"description\": \"Doce de amendoin\",\n    \t\"amount\": 200,\n    \t\"category\": \"Doce\"\n    }\n}\n",
+                    "latency": 0,
+                    "statusCode": "200",
+                    "headers": [
+                        {
+                            "key": "",
+                            "value": ""
+                        }
+                    ],
+                    "filePath": "",
+                    "sendFileAsBody": false
+                },
+                {
+                    "uuid": "5b127380-d0d8-11e9-b388-2f1240fb4986",
+                    "documentation": "",
+                    "method": "post",
+                    "endpoint": "accounts/authenticate",
+                    "body": "{\n    \"user\":\"fabricioroncalio\",\n    \"name\":\"Fabricio Roncalio\",\n    \"image\":\"\",\n    \"roles\":[\"user\"],\n    \"token\":\"thurimthruimtofly\"\n}",
+                    "latency": 2000,
+                    "statusCode": "200",
+                    "headers": [
+                        {
+                            "key": "",
+                            "value": ""
+                        }
+                    ],
+                    "filePath": "",
+                    "sendFileAsBody": false
+                }
+            ],
+            "proxyMode": false,
+            "proxyHost": "",
+            "https": false,
+            "cors": true,
+            "headers": [
+                {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "key": "Access-Control-Allow-Methods",
+                    "value": "GET, POST, PUT, DELETE, OPTIONS"
+                },
+                {
+                    "key": "Access-Control-Allow-Origin",
+                    "value": "*"
+                },
+                {
+                    "key": "Access-Control-Allow-Headers",
+                    "value": "Origin, X-Requested-With, Content-Type, Accept"
+                }
+            ]
+        },
+        {
+            "uuid": "eee4af20-d582-11e9-bc9c-45b650b434bd",
+            "name": "prova",
+            "endpointPrefix": "",
+            "latency": 0,
+            "port": 4000,
+            "routes": [
+                {
+                    "uuid": "",
+                    "documentation": "",
+                    "method": "post",
+                    "endpoint": "login",
+                    "body": "{\n    \"user\":\"fjroncalio\",\n    \"name\":\"Fabricio Roncalio\",\n    \"tel\": \"16987452132\"\n    \"image\":\"https://picsum.photos/200/300\",\n    \"roles\":[\"user\"],\n    \"token\":\"thurimthruimtofly\"\n}",
+                    "latency": 2000,
+                    "statusCode": "200",
+                    "headers": [
+                        {
+                            "key": "",
+                            "value": ""
+                        }
+                    ],
+                    "filePath": "",
+                    "sendFileAsBody": false
+                },
+                {
+                    "uuid": "812e90b0-d585-11e9-bc9c-45b650b434bd",
+                    "documentation": "",
+                    "method": "get",
+                    "endpoint": "signup",
+                    "body": "{\n    \"user\":\"fjroncalio\",\n    \"name\":\"Fabricio Roncalio\",\n    \"tel\": \"16987452132\"\n    \"image\":\"https://picsum.photos/200/300\",\n    \"roles\":[\"user\"],\n    \"token\":\"thurimthruimtofly\"\n}",
+                    "latency": 0,
+                    "statusCode": "200",
+                    "headers": [
+                        {
+                            "key": "",
+                            "value": ""
+                        }
+                    ],
+                    "filePath": "",
+                    "sendFileAsBody": false
+                },
+                {
+                    "uuid": "ef23ebf0-d58b-11e9-bc9c-45b650b434bd",
+                    "documentation": "",
+                    "method": "get",
+                    "endpoint": "contact",
+                    "body": "[\r\n  {\r\n    \"id\": \"5d7a971b77079f24f51fc3dc\",\r\n    \"name\": \"Fabricio Roncalio\",\r\n    \"cpf\": \"5d7a971bd9acb8bacc5180ac\",\r\n    \"email\": \"fabricio.roncalio@5by5.com\",\r\n    \"phone\": \"+55 (953) 439-3099\",\r\n    \"address\": \"819 Post Court, Hailesboro, Missouri, 5913\",\r\n    \"image\": \"https://picsum.photos/200/300\"\r\n  },\r\n  {\r\n    \"id\": \"5d7a971b227ad8d584a66978\",\r\n    \"name\": \"Eloise Walter\",\r\n    \"cpf\": \"5d7a971ba0df7ea8295c7530\",\r\n    \"email\": \"Eloise.Walter@5by5.com\",\r\n    \"phone\": \"+55 (875) 453-3938\",\r\n    \"address\": \"618 Pleasant Place, Trinway, Washington, 6079\",\r\n    \"image\": \"https://picsum.photos/200/300\"\r\n  },\r\n  {\r\n    \"id\": \"5d7a971b50a10818cbd35cb7\",\r\n    \"name\": \"Araceli Clarke\",\r\n    \"cpf\": \"5d7a971b692e00801aa5e2f0\",\r\n    \"email\": \"undefined.undefined@undefined.org\",\r\n    \"phone\": \"+55 (965) 450-3703\",\r\n    \"address\": \"112 Malbone Street, Ernstville, Georgia, 1890\",\r\n    \"image\": \"https://picsum.photos/200/300\"\r\n  },\r\n  {\r\n    \"id\": \"5d7a971b358a70c2b569bfb8\",\r\n    \"name\": \"Susanna Armstrong\",\r\n    \"cpf\": \"5d7a971bc9c13a5984bf1cb9\",\r\n    \"email\": \"Susanna.Armstrong@5by5.com\",\r\n    \"phone\": \"+55 (840) 485-3365\",\r\n    \"address\": \"244 Bristol Street, Sisquoc, Idaho, 2391\",\r\n    \"image\": \"https://picsum.photos/200/300\"\r\n  },\r\n  {\r\n    \"id\": \"5d7a971b926d19bdb3bd5621\",\r\n    \"name\": \"Stephens Holland\",\r\n    \"cpf\": \"5d7a971bf67d41d697701157\",\r\n    \"email\": \"Stephens.Holland@5by5.com\",\r\n    \"phone\": \"+55 (987) 464-3293\",\r\n    \"address\": \"461 Harway Avenue, Disautel, Wisconsin, 6192\",\r\n    \"image\": \"https://picsum.photos/200/300\"\r\n  },\r\n  {\r\n    \"id\": \"5d7a971b31a97790fc98010d\",\r\n    \"name\": \"Mildred Daniels\",\r\n    \"cpf\": \"5d7a971b4e95064bb95acf3a\",\r\n    \"email\": \"Mildred.Daniels@5by5.com\",\r\n    \"phone\": \"+55 (997) 436-2802\",\r\n    \"address\": \"562 Folsom Place, Abiquiu, North Dakota, 1204\",\r\n    \"image\": \"https://picsum.photos/200/300\"\r\n  },\r\n  {\r\n    \"id\": \"5d7a971bf1bd7868821db535\",\r\n    \"name\": \"Hicks King\",\r\n    \"cpf\": \"5d7a971b569788e4f17ee749\",\r\n    \"email\": \"Hicks.King@5by5.com\",\r\n    \"phone\": \"+55 (805) 468-2155\",\r\n    \"address\": \"130 Grand Avenue, Smeltertown, Maine, 8236\",\r\n    \"image\": \"https://picsum.photos/200/300\"\r\n  },\r\n  {\r\n    \"id\": \"5d7a971b3065bbfd6746255a\",\r\n    \"name\": \"Fowler Love\",\r\n    \"cpf\": \"5d7a971b8af3b0209abf824c\",\r\n    \"email\": \"Fowler.Love@5by5.com\",\r\n    \"phone\": \"+55 (922) 470-2423\",\r\n    \"address\": \"719 Eagle Street, Crisman, Utah, 9359\",\r\n    \"image\": \"https://picsum.photos/200/300\"\r\n  },\r\n  {\r\n    \"id\": \"5d7a971b5acce66a0eb62773\",\r\n    \"name\": \"Dean Nixon\",\r\n    \"cpf\": \"5d7a971b44b17cd1dcd80342\",\r\n    \"email\": \"Dean.Nixon@5by5.com\",\r\n    \"phone\": \"+55 (891) 524-2948\",\r\n    \"address\": \"752 Jackson Street, Lithium, South Carolina, 9902\",\r\n    \"image\": \"https://picsum.photos/200/300\"\r\n  },\r\n  {\r\n    \"id\": \"5d7a971b3e36cf1ad19d2f96\",\r\n    \"name\": \"Shawn Perkins\",\r\n    \"cpf\": \"5d7a971bc3da24120af26487\",\r\n    \"email\": \"Shawn.Perkins@5by5.com\",\r\n    \"phone\": \"+55 (863) 500-3012\",\r\n    \"address\": \"204 Ira Court, Rose, Delaware, 5220\",\r\n    \"image\": \"https://picsum.photos/200/300\"\r\n  }\r\n]",
+                    "latency": 0,
+                    "statusCode": "200",
+                    "headers": [
+                        {
+                            "key": "",
+                            "value": ""
+                        }
+                    ],
+                    "filePath": "",
+                    "sendFileAsBody": false
+                },
+                {
+                    "uuid": "77873c40-d58c-11e9-bc9c-45b650b434bd",
+                    "documentation": "",
+                    "method": "post",
+                    "endpoint": "contact",
+                    "body": "{\r\n    \"id\": \"5d7a971b77079f24f51fc3dc\",\r\n    \"name\": \"Fabricio Roncalio Incluido\",\r\n    \"cpf\": \"5d7a971bd9acb8bacc5180ac\",\r\n    \"email\": \"undefined.undefined@undefined.com\",\r\n    \"phone\": \"+55 (953) 439-3099\",\r\n    \"address\": \"819 Post Court, Hailesboro, Missouri, 5913\",\r\n    \"image\": \"https://picsum.photos/200/300\"\r\n  }",
+                    "latency": 0,
+                    "statusCode": "200",
+                    "headers": [
+                        {
+                            "key": "",
+                            "value": ""
+                        }
+                    ],
+                    "filePath": "",
+                    "sendFileAsBody": false
+                },
+                {
+                    "uuid": "85f5ffa0-d58c-11e9-bc9c-45b650b434bd",
+                    "documentation": "",
+                    "method": "put",
+                    "endpoint": "contact/5d7a971b77079f24f51fc3dc",
+                    "body": "{\r\n    \"id\": \"5d7a971b77079f24f51fc3dc\",\r\n    \"name\": \"Fabricio Roncalio Alterado\",\r\n    \"cpf\": \"5d7a971bd9acb8bacc5180ac\",\r\n    \"email\": \"undefined.undefined@undefined.com\",\r\n    \"phone\": \"+55 (953) 439-3099\",\r\n    \"address\": \"819 Post Court, Hailesboro, Missouri, 5913\",\r\n    \"image\": \"https://picsum.photos/200/300\"\r\n  }",
+                    "latency": 0,
+                    "statusCode": "200",
+                    "headers": [
+                        {
+                            "key": "",
+                            "value": ""
+                        }
+                    ],
+                    "filePath": "",
+                    "sendFileAsBody": false
+                },
+                {
+                    "uuid": "b3e04d30-d58c-11e9-bc9c-45b650b434bd",
+                    "documentation": "",
+                    "method": "delete",
+                    "endpoint": "contact/5d7a971b77079f24f51fc3dc",
+                    "body": "{\r\n    \"id\": \"5d7a971b77079f24f51fc3dc\",\r\n    \"name\": \"Fabricio Roncalio Excluido\",\r\n    \"cpf\": \"5d7a971bd9acb8bacc5180ac\",\r\n    \"email\": \"undefined.undefined@undefined.com\",\r\n    \"phone\": \"+55 (953) 439-3099\",\r\n    \"address\": \"819 Post Court, Hailesboro, Missouri, 5913\",\r\n    \"image\": \"https://picsum.photos/200/300\"\r\n  }",
+                    "latency": 0,
+                    "statusCode": "200",
+                    "headers": [
+                        {
+                            "key": "",
+                            "value": ""
+                        }
+                    ],
+                    "filePath": "",
+                    "sendFileAsBody": false
+                },
+                {
+                    "uuid": "1e848290-d64c-11e9-b588-b7f4f000a1e5",
+                    "documentation": "",
+                    "method": "get",
+                    "endpoint": "contact/5d7a971b77079f24f51fc3dc",
+                    "body": "{\r\n    \"id\": \"5d7a971b77079f24f51fc3dc\",\r\n    \"name\": \"Fabricio Roncalio\",\r\n    \"cpf\": \"5d7a971bd9acb8bacc5180ac\",\r\n    \"email\": \"undefined.undefined@undefined.com\",\r\n    \"phone\": \"+55 (953) 439-3099\",\r\n    \"address\": \"819 Post Court, Hailesboro, Missouri, 5913\",\r\n    \"image\": \"https://picsum.photos/200/300\"\r\n  }",
+                    "latency": 2000,
+                    "statusCode": "200",
+                    "headers": [
+                        {
+                            "key": "",
+                            "value": ""
+                        }
+                    ],
+                    "filePath": "",
+                    "sendFileAsBody": false
+                },
+                {
+                    "uuid": "3b91aa30-d65f-11e9-b588-b7f4f000a1e5",
+                    "documentation": "",
+                    "method": "post",
+                    "endpoint": "resetPassword",
+                    "body": "{\n    \"email\": \"email@email.com\"\n}",
+                    "latency": 0,
+                    "statusCode": "200",
+                    "headers": [
+                        {
+                            "key": "",
+                            "value": ""
+                        }
+                    ],
+                    "filePath": "",
+                    "sendFileAsBody": false
+                }
+            ],
+            "proxyMode": false,
+            "proxyHost": "",
+            "https": false,
+            "cors": true,
+            "headers": [
+                {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "key": "Access-Control-Allow-Methods",
+                    "value": "GET, POST, PUT, DELETE, OPTIONS"
+                },
+                {
+                    "key": "Access-Control-Allow-Origin",
+                    "value": "*"
+                },
+                {
+                    "key": "Access-Control-Allow-Headers",
+                    "value": "Origin, X-Requested-With, Content-Type, Accept"
+                }
+            ]
+        }
+    ]
+}
